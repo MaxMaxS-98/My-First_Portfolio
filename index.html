@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+    <!-- header with title and a nav bar-->
+
+    <header>
+        <h1 class="title">Max Sciuclin</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- A box under the header  -->
+    <div class="box">
+        <h2 class="text-align">My Very First Portfolio</h2>
+    </div>
+
+    <!-- Main part of the page -->
+    <main>
+        <section>
+            <h3 id="aboutme" class="aboutme">About Me</h3>
+            <!-- this div is just for a vertical line -->
+            <div class="vertical"></div>
+            <p class="paragraph">Hello! My name is Max and I am from San Francisco, California.
+                As of right now I am studing at the UC Berkeley coding bootcamp to become a skilled web developer.
+                This
+                is one of my very first portfolio websites.
+            </p>
+        </section>
+
+        <!-- Work Section -->
+
+        <!--Parent element -->
+        <aside class="parent">
+            <h3 id="work" class="tag">Work</h3>
+            <div class="vertical"></div>
+            <figure class="container-1">
+
+                <div class="box-1">
+                    <a href="https://maxmaxs-98.github.io/28-Stu_Mini-Project/" target="_blank">
+                        <img src="./assets/css-sinpet.png" alt="CSS Cheatsheet Webpage image">
+                    </a>
+                </div>
+
+                <div class="box-2">
+                    <a href="https://maxmaxs-98.github.io/Horiseon-Webpage/" target="_blank">
+                        <img src="./assets/Horiseon.png" alt="Horiseo Website picture">
+                    </a>
+                </div>
+
+                <div class="box-3">
+                    <a href="https://maxsciuclin.github.io/TTH-Responsive-Layout-project/" target="_blank">
+                        <img src="./assets/my-portfolio.png" alt="A portfolio page img">
+                    </a>
+                </div>
+
+                <div class="box-4">
+                    <a href="#">
+                        <img src="./assets/coming-soon.png" alt="A login webpage with a coming soon in the center">
+                    </a>
+                </div>
+                
+
+                <div class="box-5">
+                    <a href="#">
+                        <img src="./assets/newsletter.png" alt="A login webpage for a newsletter">
+                    </a>
+                </div>
+
+
+            </figure>
+
+        </aside>
+    </main>
+
+    <!-- Contact me section -->
+    <footer class="flex">
+        <h3 id="contact" class="contact">Contact Me</h3>
+        <div class="vertical"></div>
+        <figure class="container-2">
+            <a href="#" class="phone ">555-555-5555</a>
+            <a href="#" class="email">someone@gmail.com</a>
+            <a href="https://github.com/" target="_blank" class="Git">GitHub</a>
+        </figure>
+    </footer>
+</body>
+
+</html>

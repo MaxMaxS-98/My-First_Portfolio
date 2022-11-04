@@ -1,0 +1,163 @@
+/* set line-height to 1  */
+* {
+    line-height: 1;
+
+}
+/* body backgound color change*/
+body{
+    background-color: rgb(189, 204, 162);
+}
+/* Set the header's heigth and added border */
+header {
+    border: 1px solid;
+    height: 9rem;
+    background-color: rgb(75, 74, 74);
+}
+/* Set the nav bar to display flex and justified content*/
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 2rem;
+    /* font-size: 20px; */
+    margin: 0px;
+    padding: 25px 20px;
+    list-style: none;
+
+}
+/* Changed <a> color and font-size */
+.navbar a {
+    color: lightblue;
+    font-size: 30px;
+}
+/* added a hover  */
+.navbar a:hover {
+    background-color: beige;
+    color: black;
+    border-radius: 4px;
+}
+.title {
+    padding-top: 15px;
+    font-size: 50px;
+    border: 1px solid;
+    width: 20rem;
+    height: 5rem;
+    background-color: lightblue;
+    color: rgb(57, 52, 52);
+}
+
+/* added some spacing and adjusted height and width */
+.box {
+    border: 1px solid;
+    padding: 1.4rem;
+    width: 100%;
+    height: 200px;
+    background-image: url(./web-developer-portfolio.jpeg);
+}
+/* aligned text and increased font-size */
+.text-align {
+    text-align: center;
+    font-size: 35px;
+}
+/* added a hover */
+.box:hover {
+    border-radius: 20px;
+    color: rgb(46, 141, 109);
+}
+/* set the parent element to flex */
+section {
+    color: rgb(87, 118, 129);
+    display: flex;
+    padding-top: 40px;
+}
+
+.aboutme {
+    font-size: 6rem;
+    padding: 50px 40px;
+}
+
+.paragraph {
+    font-size: 3rem;
+    padding: 70px 60px;
+}
+/* this is just for a vertical line  */
+.vertical {
+    border-left: thick solid black;
+}
+
+.parent {
+    display: flex;
+    padding-top: 10rem;
+    
+   
+ } 
+
+.tag{
+    font-size: 6rem;
+    padding:50px 59.1px;
+    color:rgb(87, 118, 129);
+}
+/* Resized img element */
+img{
+     height: 20rem;
+     width: 30rem; 
+}
+/* set container-1 to flex and adjusted width */
+.container-1{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    padding: 70px 60px;
+    flex-wrap: wrap;
+   
+
+}
+.box-1 img{
+    width: 60rem;
+    height: 27rem;
+}
+/* made img to hover  */
+.container-1 img:hover{
+    border: 3px solid rgb(166, 110, 199);
+    border-radius: 20px;
+    background-color: rgb(89, 78, 99);
+    transform: rotate(10deg);
+    
+} 
+/* set flex container to flex and added some top padding */
+.flex {
+    display: flex;
+    padding-top: 10rem;
+}
+/* changed font size and added some padding  */
+.contact {
+    font-size: 4rem;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    padding-left: 12px;
+    color:rgb(87, 118, 129)
+}
+/*set .container-2 to flex, added a gap, changed the font size and added some padding*/
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    font-size: 30px;
+    justify-content: center;
+    padding-left: 20rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+/* added a hover  */
+.container-2 a:hover {
+    border-radius: 5px;
+    background-color: rgb(76, 76, 79);
+}
+/* Couldn't get media query to work :( */
+/* @media screen and (max-width:1320px;) {
+    header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
+    }
+} */
